@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionItem,
@@ -33,23 +33,29 @@ const Value = () => {
             gjiosadhguaguasgusahgusahgpuashguisauisqgfsa7gsauhguaishguisaghuisaghusaig
           </span>
           <Accordion
-            className="accordion-container"
-            allowMultipleExpanded={false}
-            preExpanded={[0]}
-          >
-            {data.map((item, i) => {
-                const [className, setClassName] = useState(null)
-              return (
-                <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
-                  <AccordionItemHeading>
-                    <AccordionItemButton className="flexCenter accordionButton">
-                      <AccordionItemState>
-                        {({ expanded }) =>
-                          expanded
-                            ? setClassName("expanded")
-                            : setClassName("collapsed")
-                        }
-                      </AccordionItemState>
+      className="accordion-container"
+      allowMultipleExpanded={false}
+      preExpanded={[0]}
+    >
+      {data.map((item, i) => {
+        const [expanded, setExpanded] = useState(false);
+        const className = expanded ? "expanded" : "collapsed";
+
+        useEffect(() => {
+          setExpanded(false); // set initial state
+        }, []);
+
+        return (
+          <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
+            <AccordionItemHeading>
+              <AccordionItemButton className="flexCenter accordionButton">
+                <AccordionItemState>
+                  {({ expanded }) => {
+                    if (expanded !== expanded) {
+                      setExpanded(expanded);
+                    }
+                  }}
+                </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
