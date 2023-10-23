@@ -1,5 +1,5 @@
 .hero-wrapper {
-    color: white;
+    color:  #dc4d4d;
     position: relative;
     padding-bottom: 2rem;
 }
@@ -18,6 +18,10 @@
 .hero-title{
     position: relative;
     z-index: 1;
+}
+
+.hero-des{
+    width: 30rem;
 }
 
 .hero-title>h1{
@@ -43,7 +47,7 @@
     border: 3px solid rgb(120, 120, 120, 0.374);
     padding: 0.5rem 1rem;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
 }
 
 .search-bar> input{
@@ -61,7 +65,7 @@
     font-size: 2rem;
 }
 .stat>:nth-child(1)>:last-child{
-    color: orange;
+    color: rgb(0, 200, 255);
 }
 
 
@@ -74,7 +78,7 @@
     height: 35rem;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0 ;
-    border: 8px solid rgb(255, 255, 255, 0.12);
+    border: 8px solid #dc4d4d62;
 }
 
 .image-container>img{

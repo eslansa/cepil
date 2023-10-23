@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Header.css'
 const Header = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".h-wrapper");
+      if (window.pageYOffset > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       <section className="h-wrapper">
@@ -8,12 +25,11 @@ const Header = () => {
           <img src="./logo.png" alt="logo" width={100} />
 
           <div className="flexCenter h-menu">
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact</a>
-            <a href="">Get Started</a>
+            <a href="">Empresa</a>
+            <a href="">Productos</a>
+            <a href="">Noticias</a>
             <button className="button">
-              <a href="">Contact</a>
+              <a href="">Contacto</a>
             </button>
           </div>
         </div>

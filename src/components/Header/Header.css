@@ -6,7 +6,7 @@
     justify-content: space-between;
     padding-top: 1rem ;
     padding-bottom: 1rem;
-    color: var(--secondary);
+    color: rgb(121, 44, 44);
 }
 
 .h-menu {
@@ -16,3 +16,15 @@
 .h-menu>*:hover{
     cursor: pointer;
 }
+.scrolled {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  /* .scrolled .h-container {
+    color: black;
+  } */
+  
