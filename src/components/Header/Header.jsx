@@ -1,6 +1,15 @@
-import React, { useEffect } from "react";
-import './Header.css'
+import React, { useEffect, useState } from "react";
+import { BiMenuAltRight } from "react-icons/bi";
+import OutsideClickHandler from "react-outside-click-handler";
+import "./Header.css";
 const Header = () => {
+  const [menuOpened, setMenuOpened] = useState(false);
+
+  const getMenuStyles = (menuOpened) => {
+    if (document.documentElement.clientWidth <= 800) {
+      return { right: !menuOpened && "-100%" };
+    }
+  };
   useEffect(() => {
     const handleScroll = () => {
       const header = document.querySelector(".h-wrapper");
@@ -19,12 +28,16 @@ const Header = () => {
   }, []);
 
   return (
-    <div>
-      <section className="h-wrapper">
-        <div className="flexCenter paddings innerWidth h-container">
-          <img src="./logo.png" alt="logo" width={100} />
+    <section className="h-wrapper">
+      <div className="flexCenter paddings innerWidth h-container">
+        <img src="./logo.png" alt="logo" width={100} />
 
-          <div className="flexCenter h-menu">
+        <OutsideClickHandler 
+        onOutsideClick={()=> {
+          setMenuOpened(false)
+        }}
+        >
+          <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <a href="">Empresa</a>
             <a href="">Productos</a>
             <a href="">Noticias</a>
@@ -32,9 +45,15 @@ const Header = () => {
               <a href="">Contacto</a>
             </button>
           </div>
+        </OutsideClickHandler>
+        <div
+          className="menu-icon"
+          onClick={() => setMenuOpened((prev) => !prev)}
+        >
+          <BiMenuAltRight size={30} />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

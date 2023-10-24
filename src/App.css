@@ -4,7 +4,7 @@
 }
 .App>:nth-child(1)
 {
-    background: aliceblue;
+    background: rgb(255, 255, 255);
     position: relative;
 }
 .white-gradient{
@@ -12,8 +12,8 @@
     width: 20rem;
     height: 20rem;
     background: rgb(105, 221, 250);
-    filter: blur(100px);
+    filter: blur(200px);
     border-radius: 100px;
     bottom: 0;
-    right: 0;
+    left: 0;
 }
