@@ -29,21 +29,19 @@ const Header = () => {
 
   return (
     <section className="h-wrapper">
-      <div className="flexCenter paddings innerWidth h-container">
-        <img src="./logo.png" alt="logo" width={100} />
+       <div className="flexCenter paddings nnerWidth h-container">
+        <img src="./logo-cepil.svg" alt="logo" width={100} />
 
         <OutsideClickHandler 
         onOutsideClick={()=> {
           setMenuOpened(false)
-        }}
+        }} 
         >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <a href="">Empresa</a>
             <a href="">Productos</a>
             <a href="">Noticias</a>
-            <button className="button">
-              <a href="">Contacto</a>
-            </button>
+            <a href="">Contacto</a>
           </div>
         </OutsideClickHandler>
         <div

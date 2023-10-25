@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 const Hero = () => {
   return (
       <section className="hero-wrapper">
-        <div className="paddings innerWidth flexCenter hero-container">
+        <div className="paddings flexCenter hero-container">
           {/* left slide */}
           <div className="flexColStart hero-left">
             <div className="hero-title">
@@ -18,8 +18,11 @@ const Hero = () => {
                 duration: 2,
                 type: "spring"
               }}
+              
               >
-                <img src="./logo.png" alt="" /> <br />El astro de la<br />higiene.
+                <strong>Cepil</strong>
+                <br />
+                <a className="TextA">El astro de la higiene</a>
               </motion.h1>
             </div>
 
@@ -30,12 +33,12 @@ const Hero = () => {
               <span className="secondaryText"> Hoy, CEPIL es un referente en la industria transformativa del plástico, reconocida por su calidad y preferida por sus consumidores
               </span>
             </div>
+            <div className="hero-box">
             <div className="flexCenter search-bar">
               <HiSearch color="var(--blue)" size={25} />
               <input type="text" />
               <button className="button">Buscar</button>
             </div>
-
             <div className="flexCenter stats">
               <div className="flexColCenter stat">
                 <span>
@@ -59,6 +62,8 @@ const Hero = () => {
                 <span className="secondaryText">Trabajadores</span>
               </div>
             </div>
+            </div>
+           
 
           </div>
           {/* right slide */}

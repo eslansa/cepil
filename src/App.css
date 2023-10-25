@@ -13,7 +13,7 @@
     height: 20rem;
     background: rgb(105, 221, 250);
     filter: blur(200px);
-    border-radius: 100px;
+    border-radius: 50%;
     bottom: 0;
     left: 0;
 }
