@@ -22,7 +22,7 @@ const Hero = () => {
               >
                 <strong>Cepil</strong>
                 <br />
-                <a className="TextA">El astro de la higiene</a>
+                <a className="TextA">El astro de la higiene.</a>
               </motion.h1>
             </div>
 

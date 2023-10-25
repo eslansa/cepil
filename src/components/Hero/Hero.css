@@ -96,12 +96,13 @@
     }
     .hero-title>h1{
         font-size: 2.5rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
         padding-left: 1rem;
     }
     .TextA{
         left: 0%;
         bottom: 0%;
+        font-size: 1.5rem;
     }
     .hero-des{
         width: auto;
