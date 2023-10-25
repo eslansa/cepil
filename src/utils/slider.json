@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Escoba Hogareña",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
+   "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "name": "Citralan Puri Serang",
+    "name": "Cepillo Masorquita",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
-  },
-  {
-    "name": "Asatti Garden City",
+    "name": "Cesto Vaiven",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Cesto Calado",
+    "price": "47,043",
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
+    "image": "./r4.png"
+  },
+  {
+    "name": "Cubo",
+    "price": "66,353",
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
+     "image": "./r5.png"
+  },
+  {
+    "name": "Escurridor",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "Ref.: 529-8. Material: Cerdas plumadas de PVC. Dimensiones máximas de la base pástica: Largo: 255 mm, Ancho: 38 mm, Espesor: 17 mm. Altura visible de la cerda: 70 mm. Área de barrido: (320 x 65) mm. Con alojamiento roscado para el mango. Rosca italiana, Diámetro: 20 mm. Presentación: 24 u/caja",
+    "image": "./r6.png"
   }
 ]

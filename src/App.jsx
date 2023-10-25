@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import './App.css'
 import Companies from "./components/Companies/Companies";
-import Residencies from "./components/Residencies/Residencies";
+import Residencies from "./components/Products/Products";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
 import GetStarted from "./components/GetStarted/GetStarted";
@@ -16,12 +16,12 @@ function App() {
       <Header />
       <Hero/>
       </div>
-      {/* <Companies/>
-      <Residencies/>
-      <Value />
-      <Contact/>
-      <GetStarted/>
-      <Footer/> */}
+      {/* <Companies/> */}
+       <Residencies/>
+      {/* <Value /> */}
+      {/* <Contact/> */}
+      {/* <GetStarted/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
