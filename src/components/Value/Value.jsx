@@ -24,14 +24,10 @@ const Value = () => {
         </div>
         {/* right slide */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
-          <span className="primaryText">Value We Give You</span>
+          <span className="orangeText">¿Quiénes somos?</span>
+          <span className="primaryText">Objetivo, Misión y Visión</span>
           <span className="secondaryText">
-            fwhuiaw hfuaw fhawuhf awu fhwaup fawg fyaw gfywa fawy fwapgf ywag
-            fyapwg fwap f
-            <br />
-            gjiosadhguaguasgusahgusahgpuashguisauisqgfsa7gsauhguaishguisaghuisaghusaig
-          </span>
+          "Cepil, fundada en 1963, es la única empresa en Cuba que produce cepillos y escobas. Como parte de GEMPIL, se ha diversificado con plásticos y tecnología de transformación. Avalada por las Normas ISO 9000, es líder en la industria del plástico con una sólida imagen entre los consumidores. Con más de 50 años de experiencia, Cepil sigue buscando desarrollo e innovación." </span>
           <Accordion
       className="accordion-container"
       allowMultipleExpanded={false}

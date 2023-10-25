@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Objetivo",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
-  },
-  {
-    icon: <MdCancel />,
-    heading: "Prevent unstable prices",
-    detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Producir, comercializar y transportar productos del plástico en general.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Misión",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Producir y comercializar artículos plásticos para higiene y limpieza, que satisfagan las necesidades y expectativas del mercado. Siendo compromiso de la alta dirección: desarrollar, mantener y mejorar el sistema de gestión empresarial, basado en la continua especialización de todo el personal y en la utilización de tecnología de avanzada, que propicie la permanencia estable de nuestros productos en el mercado, con alta calidad y precios competitivos.",
+  },
+  {
+    icon: <MdCancel />,
+    heading: "Visión",
+    detail:
+      "Ser reconocido como proveedor líder en el mercado nacional de productos plásticos para higiene y limpieza, logrando la inserción en el mercado externo con alto desempeño y eficacia del sistema de gestión empresarial.",
   },
 ];
 export default data;

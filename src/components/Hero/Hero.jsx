@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 const Hero = () => {
   return (
       <section className="hero-wrapper">
-        <div className="paddings flexCenter hero-container">
+        <div className="paddings flexCenter innerWidth hero-container">
           {/* left slide */}
           <div className="flexColStart hero-left">
             <div className="hero-title">

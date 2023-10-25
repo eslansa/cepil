@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <section className="h-wrapper">
-       <div className="flexCenter paddings nnerWidth h-container">
+       <div className="flexCenter paddings innerWidth h-container">
         <img src="./logo-cepil.svg" alt="logo" width={100} />
 
         <OutsideClickHandler 
