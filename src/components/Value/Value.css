@@ -1,5 +1,5 @@
 .v-container .image-container{
-    border: 4px solid rgb(99, 99, 99);
+    border: 2px solid rgb(99, 99, 99);
 }
 .v-container>div{
     flex: 1;

@@ -1,8 +1,22 @@
 .f-container{
     justify-content: space-between;
-
+    width: auto;
 }
-
+.f-wrapper{
+    background-image: url("./footer.png");
+    background-position:initial;
+    background-size: cover;
+}
+.f-flexRowStart {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; /* Adjust the value as needed */
+  }
+  
+  .f-icons {
+    align-items: flex-end; /* Optional: To vertically align the icons */
+  }
+  
 .f-left{
     gap: 1rem;
 }
